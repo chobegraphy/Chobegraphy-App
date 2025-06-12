@@ -8,10 +8,12 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
+      className="bg-[#efebeb]"
     >
-      <Text className="bg-red-500 text-5xl">
-        Edit app/index.tsx to edit this screen.
-      </Text>
+      <Text className="text-5xl font-righteous">Chobegraphy</Text>
+      <Text className="text-3xl font-spaceGrotesk">Photography</Text>
+      <Text className="text-5xl font-banglaHeading">ছবিগ্রাফি</Text>
+      <Text className="text-3xl font-banglaSubHeading">ফটোগ্রাফি </Text>
     </View>
   );
 }
