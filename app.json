@@ -10,10 +10,12 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.chobegraphy.app"
+      "bundleIdentifier": "com.chobegraphy.app",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "package": "com.chobegraphy.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -43,8 +45,15 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "cf5eaf21-cdad-4915-a34b-3df8bedb1740"
+        "projectId": "5968684d-7e51-4010-b7df-61e6d0d82299"
       }
+    },
+    "owner": "chobegraphybd",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5968684d-7e51-4010-b7df-61e6d0d82299"
     }
   }
 }
