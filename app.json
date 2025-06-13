@@ -4,7 +4,7 @@
     "slug": "chobegraphy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/dark-icon.jpg",
     "scheme": "chobegraphy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -32,10 +32,11 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/light-splash.jpg",
+          "imageDark": "./assets/images/dark-splash.jpg",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#ffffff",
+          "backgroundColorDark": "#000000"
         }
       ]
     ],
